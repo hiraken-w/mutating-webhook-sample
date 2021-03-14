@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	hook "hiraken-w/mutating-webhook-sidecar-injector/webhook"
+	hook "github.com/hiraken-w/mutating-webhook-sidecar-injector/webhook"
 
 	"github.com/golang/glog"
 	"gopkg.in/yaml.v2"
