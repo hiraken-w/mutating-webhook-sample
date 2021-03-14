@@ -28,6 +28,7 @@ type HookParamters struct {
 }
 
 func loadConfig(confgFile string) (*hook.Config, error) {
+
 	data, err := ioutil.ReadFile(confgFile)
 	if err != nil {
 		return nil, err
